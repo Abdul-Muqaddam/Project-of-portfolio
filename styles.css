@@ -1291,7 +1291,9 @@ right: 500px;
     margin:0px 30px;
     border-radius: 20px;
     background: linear-gradient(103.91deg, rgba(255, 255, 255, 0.35) 4.87%, rgba(255, 255, 255, 0.35) 98.49%);
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .sixth-section-group2-card1{
     height: 250px;
@@ -1299,4 +1301,47 @@ right: 500px;
     margin:0px 30px;
     border-radius: 20px;
     background: linear-gradient(103.91deg, rgba(255, 255, 255, 0.35) 4.87%, rgba(255, 255, 255, 0.35) 98.49%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sixth-section-group1-card1-child{
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sixth-section-group2-card1-child{
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.group1-grey-card{
+    height: 80%;
+    width: 90%;
+    background: rgba(217, 217, 217, 1);
+    border-radius: 20px;
+}
+.group2-grey-card{
+    height: 80%;
+    width: 90%;
+    background: rgba(217, 217, 217, 1);
+    border-radius: 20px;
+}
+.sixth-section-group1-text{
+    font-weight: 400;
+    color: #1780B2;
+}
+.sixth-section-group2-text{
+    font-weight: 400;
+    color: #1780B2;
 }
